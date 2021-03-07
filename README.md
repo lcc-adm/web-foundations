@@ -1,2 +1,2 @@
 # web foundations
- web foundations research project 2020-2021
+ web foundation research project 2020-2021

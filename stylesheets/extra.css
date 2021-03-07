@@ -1,0 +1,113 @@
+:root {
+  --black-color: #494742;
+  --blue-color: #1f6289;
+  --secondary-blue: #3c8bb9;
+  --secondary-color: linear-gradient(45deg, #3c8bb9 0%, #1f6289 74%);
+  --background: #fff;
+}
+html {
+  font-size: 1.5rem;
+  line-height: 2rem ;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: var(--black-color);
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+.md-header,
+.md-footer {
+  background: var(--secondary-color);
+  background-blend-mode: multiply;
+}
+
+.md-footer {
+margin-top: 2rem;
+}
+
+.md-content__inner {
+  max-width: 800px;
+}
+
+.md-typeset h1 {
+  font-size: 2em;
+  font-weight: 800;
+  color: var(--black-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.md-typeset h2 {
+  font-size: 1.6em;
+  font-weight: 700;
+  color: var(--black-color);
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.md-typeset h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--black-color);
+  margin: 1rem 0;
+}
+
+.md-typeset blockquote {
+  padding: 0;
+  margin: 2rem 0;
+  color: #888;
+  font-size: 1 rem;
+  text-align: center;
+  font-style: italic;
+  border: none;
+}
+
+.md-typeset a {
+  background: linear-gradient(
+    0deg,
+    var(--secondary-blue),
+    var(--secondary-blue)
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 6px 1px;
+  color: var(--secondary-blue);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-size 0.3s, color 0.3s, box-shadow 0.2s;
+  padding: 3px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  border-radius: 0.2rem;
+}
+
+.md-typeset a:focus,
+.md-typeset a:hover {
+  background-size: 4px 50px;
+  color: var(--background);
+  box-shadow: var(--shadow);
+}
+
+.md-typeset hr {
+  border-bottom: 1px solid var(--blue-color);
+  margin: 2rem;
+}
+
+/*navigation and side bars*/
+.md-nav__title {
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: var(--secondary-blue);
+  text-decoration: underline;
+}
+
+.md-nav__item {
+  padding: 0 1rem;
+}
