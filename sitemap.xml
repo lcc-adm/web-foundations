@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://lcc-adm.github.io/web-foundations/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://lcc-adm.github.io/web-foundations/template/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://lcc-adm.github.io/web-foundations/hardware/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <lastmod>2021-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://lcc-adm.github.io/web-foundations/images/</loc>
+     <lastmod>2021-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://lcc-adm.github.io/web-foundations/storage/</loc>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://lcc-adm.github.io/web-foundations/login/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://lcc-adm.github.io/web-foundations/protect/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://lcc-adm.github.io/web-foundations/security/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://lcc-adm.github.io/web-foundations/markdown-test/</loc>
-     <lastmod>2021-03-21</lastmod>
+     <loc>https://lcc-adm.github.io/web-foundations/in-browser/</loc>
+     <lastmod>2021-04-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://lcc-adm.github.io/web-foundations/javascript/</loc>
+     <lastmod>2021-04-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
