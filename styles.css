@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+:root {
+    --black: #362c2c;
+    --background: #f3f1ee;
+    --background-darker: #d3d0cb;
+    --nav-active: #81c3d7;
+    --accent: #dd7900;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background: var(--background);
+    color: var(--black) !important;
+    scroll-behavior: smooth;
+}
+
+main {
+    max-width: 50ch;
+}
+
+h1,
+h2,
+h3,
+.navbar,
+.sidebar-item .sidebar-item-container {
+    font-family: "alexandria", serif;
+    font-weight: 700;
+    border-bottom: 0px solid transparent;
+    padding-bottom: 0;
+}
+
+.navbar {
+    /* background: linear-gradient(45deg, #3c8bb9 0%, #1f6289 74%);*/
+    background: var(--background);
+    font-weight: 700;
+    border-bottom: 1px solid var(--background-darker);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a,
+.nav-link:hover,
+.nav-link:focus,
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: var(--accent) !important;
+}
+
+.navbar a,
+.sidebar-navigation a,
+#TOC a {
+    color: var(--black) !important;
+}
+
+.sidebar-navigation a {
+    font-weight: 400;
+}
+
+.navbar a:hover,
+.breadcrumb-item a:hover,
+.sidebar-navigation a:hover,
+#TOC a:hover {
+    color: var(--accent) !important;
+    text-decoration: underline !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid var(--accent);
+    color: var(--accent) !important;
+}
+
+@media (max-width: 991.98px) {
+    nav.quarto-secondary-nav {
+        background-color: var(--background);
+        border-bottom: 1px solid var(--background-darker);
+    }
+
+    #quarto-sidebar-glass.show {
+        transition: background-color .15s ease-out;
+        background: var(--background);
+        z-index: 1000;
+    }
+
+    #quarto-sidebar .sidebar-menu-container {
+        border: 0px solid transparent;
+        padding: 1rem;
+    }
+
+    .quarto-secondary-nav button.quarto-search-button {
+        display: none;
+    }
+}
+
+.sidebar-item .sidebar-item-container .active {
+    color: var(--accent) !important;
+}
+
+#quarto-sidebar {
+    background: var(--background);
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+    padding-bottom: .5rem;
+}
+
+/* hide stuff */
+.navbar-nav,
+#quarto-search,
+.navbar-toggler,
+#title-block-header,
+.quarto-title-breadcrumbs .breadcrumb,
+.sidebar #TOC,
+#quarto-margin-sidebar {
+    display: none !important;
+}

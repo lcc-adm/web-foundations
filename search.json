@@ -1,0 +1,124 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "web foundations",
+    "section": "",
+    "text": "web foundations\nThis site serves as a simple foundation introduction to the internet and issues related to web design and development.\nAll content was collected, curated, and created by the students of the 2024-2025 Digital Media & Design program at Eaton RESA Career Preparation Center located at Lansing Community College.\nMore about the site here.",
+    "crumbs": [
+      "home",
+      "basics",
+      "home"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "Students were assigned different topics to research and explore. In addition to writing a short introduction to their topic, students were required to create a relevant illustration and include links to additional resources. Each student is credited on their individual page.\n\n\nThe Digital Media & Design program is the visual design course Students are high-school juniors and seniors attending college level classes and potentially earning college credit. Over the course of one school year, students are introduced to basic Design and Communication concepts, computer graphic design using Photoshop, and web design & development. These courses are foundation classes in the Art & Design program at LCC.\nChad Bennett is the course instructor. Please direct any questions or comments to him.\nWebsite content written in markdown and published using Quarto.",
+    "crumbs": [
+      "home",
+      "basics",
+      "about"
+    ]
+  },
+  {
+    "objectID": "posts/template/index.html#subheading",
+    "href": "posts/template/index.html#subheading",
+    "title": "template",
+    "section": "subheading",
+    "text": "subheading\nmore content here. you get the idea. use the subheadings to break up content. each heading is indicated by a hashtag symbol.\none hashtag gives you an H1, which i have reserved for the page title.\ntwo hashtags are for H2 headings that will appear in the table of contents links in the sidebar. you can have as many of these as you need, but please save them for the big sections of your document.\n\nsub-subheading\nthree hashtags are for H3 headings that are a little less important. you can use as many of these as you need.\nmore content here. you get the idea.\nthe three dashes in the next line create a horizontal rule line across the page when converted to html."
+  },
+  {
+    "objectID": "posts/template/index.html#resources",
+    "href": "posts/template/index.html#resources",
+    "title": "template",
+    "section": "resources",
+    "text": "resources\nthis is where you list your sources and links:\n\nthe dashes create a bullet-point list this is the link text\nthe dashes create a bullet-point list this is the article title\nthe dashes create a bullet-point list this is the link text"
+  },
+  {
+    "objectID": "template.html#subheading",
+    "href": "template.html#subheading",
+    "title": "template",
+    "section": "subheading",
+    "text": "subheading\nmore content here. you get the idea. use the subheadings to break up content. each heading is indicated by a hashtag symbol.\none hashtag gives you an H1, which i have reserved for the page title.\ntwo hashtags are for H2 headings that will appear in the table of contents links in the sidebar. you can have as many of these as you need, but please save them for the big sections of your document.\n\nsub-subheading\nthree hashtags are for H3 headings that are a little less important. you can use as many of these as you need.\nmore content here. you get the idea.\nthe three dashes in the next line create a horizontal rule line across the page when converted to html.",
+    "crumbs": [
+      "home",
+      "basics",
+      "template"
+    ]
+  },
+  {
+    "objectID": "template.html#resources",
+    "href": "template.html#resources",
+    "title": "template",
+    "section": "resources",
+    "text": "resources\nthis is where you list your sources and links:\n\nthe dashes create a bullet-point list this is the link text\nthis is the article title\nthis is the link text",
+    "crumbs": [
+      "home",
+      "basics",
+      "template"
+    ]
+  },
+  {
+    "objectID": "index.html#digital-media-design",
+    "href": "index.html#digital-media-design",
+    "title": "web foundations",
+    "section": "",
+    "text": "The Digital Media & Design program is the visual design course at the Eaton RESA Career Preparation Center located at Lansing Community College. Students are high-school juniors and seniors attending college level classes and potentially earning college credit. Over the course of one school year, students are introduced to basic Design and Communication concepts, computer graphic design using Photoshop, and web design & development. These courses are foundation classes in the Art & Design program at LCC.\nChad Bennett is the course instructor. Please direct any questions or comments to him.",
+    "crumbs": [
+      "home",
+      "basics",
+      "home"
+    ]
+  },
+  {
+    "objectID": "about.html#digital-media-design",
+    "href": "about.html#digital-media-design",
+    "title": "about",
+    "section": "Digital Media & Design",
+    "text": "Digital Media & Design\nThe Digital Media & Design program is the visual design course Students are high-school juniors and seniors attending college level classes and potentially earning college credit. Over the course of one school year, students are introduced to basic Design and Communication concepts, computer graphic design using Photoshop, and web design & development. These courses are foundation classes in the Art & Design program at LCC.\nChad Bennett is the course instructor. Please direct any questions or comments to him.\nWebsite content written in markdown and published using Quarto.",
+    "crumbs": [
+      "home",
+      "basics",
+      "about"
+    ]
+  },
+  {
+    "objectID": "about.html#the-class",
+    "href": "about.html#the-class",
+    "title": "about",
+    "section": "the class",
+    "text": "the class\nDigital Media & Design is the visual design program at Eaton RESA Career Preparation Center located at Lansing Community College.\nStudents are high-school juniors and seniors attending college level classes and potentially earning college credit. Over the course of one school year, students are introduced to basic Design and Communication concepts, computer graphic design using Photoshop, and web design & development. These courses are foundation classes in the Art & Design program at LCC.\nChad Bennett is the course instructor. Please direct any questions or comments to him.",
+    "crumbs": [
+      "home",
+      "basics",
+      "about"
+    ]
+  },
+  {
+    "objectID": "about.html#the-project",
+    "href": "about.html#the-project",
+    "title": "about",
+    "section": "the project",
+    "text": "the project\nStudents were assigned different topics related to web design history and technology to research and explore. In addition to writing a short introduction to their topic, students were required to create a relevant illustration and include links to additional resources. Each student is credited on their individual page.",
+    "crumbs": [
+      "home",
+      "basics",
+      "about"
+    ]
+  },
+  {
+    "objectID": "about.html#this-site",
+    "href": "about.html#this-site",
+    "title": "about",
+    "section": "this site",
+    "text": "this site\nWebsite content written in markdown and published using Quarto and a heavily modified Cosmo theme. The title font is Alexandria. The site is hosted on GitHub Pages.",
+    "crumbs": [
+      "home",
+      "basics",
+      "about"
+    ]
+  }
+]
