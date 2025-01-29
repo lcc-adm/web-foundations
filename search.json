@@ -42,24 +42,14 @@
     "href": "template.html#subheading",
     "title": "template",
     "section": "subheading",
-    "text": "subheading\nmore content here. you get the idea. use the subheadings to break up content. each heading is indicated by a hashtag symbol.\none hashtag gives you an H1, which i have reserved for the page title.\ntwo hashtags are for H2 headings that will appear in the table of contents links in the sidebar. you can have as many of these as you need, but please save them for the big sections of your document.\n\nsub-subheading\nthree hashtags are for H3 headings that are a little less important. you can use as many of these as you need.\nmore content here. you get the idea.\nthe three dashes in the next line create a horizontal rule line across the page when converted to html.",
-    "crumbs": [
-      "home",
-      "basics",
-      "template"
-    ]
+    "text": "subheading\nmore content here. you get the idea. use the subheadings to break up content. each heading is indicated by a hashtag symbol.\none hashtag gives you an H1, which i have reserved for the page title.\ntwo hashtags are for H2 headings that will appear in the table of contents links in the sidebar. you can have as many of these as you need, but please save them for the big sections of your document.\n\nsub-subheading\nthree hashtags are for H3 headings that are a little less important. you can use as many of these as you need.\nmore content here. you get the idea.\nthe three dashes in the next line create a horizontal rule line across the page when converted to html."
   },
   {
     "objectID": "template.html#resources",
     "href": "template.html#resources",
     "title": "template",
     "section": "resources",
-    "text": "resources\nthis is where you list your sources and links:\n\nthe dashes create a bullet-point list this is the link text\nthis is the article title\nthis is the link text",
-    "crumbs": [
-      "home",
-      "basics",
-      "template"
-    ]
+    "text": "resources\nthis is where you list your sources and links:\n\nthe dashes create a bullet-point list this is the link text\nthis is the article title\nthis is the link text"
   },
   {
     "objectID": "index.html#digital-media-design",
@@ -119,6 +109,246 @@
       "home",
       "basics",
       "about"
+    ]
+  },
+  {
+    "objectID": "coding.html",
+    "href": "coding.html",
+    "title": "coding languages",
+    "section": "",
+    "text": "A chibi style character staring at a computer screen in confusion while the names of different coding languages float around their head. End ID",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "coding languages"
+    ]
+  },
+  {
+    "objectID": "coding.html#html---content-layout",
+    "href": "coding.html#html---content-layout",
+    "title": "coding languages",
+    "section": "HTML - Content & Layout",
+    "text": "HTML - Content & Layout\nHTML (Hypertext Markup Language) is used to create the ‘bones’ of a website. It provides structure to a web page using text and visual formatting. When written properly, it should also be able to define the meaning of the content within the web page in a machine-readable way, which is vital for accessibility and search engine optimization.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "coding languages"
+    ]
+  },
+  {
+    "objectID": "coding.html#css---aesthetics",
+    "href": "coding.html#css---aesthetics",
+    "title": "coding languages",
+    "section": "CSS - Aesthetics",
+    "text": "CSS - Aesthetics\nCSS (Cascading Style Sheets) is used to define the style of a web page. Think of any website’s design, layout, or how it varies between devices. I like to think of CSS as the clothing of the web page’s proverbial body. If a website looks the same on every device we will quickly run into scaling problems when using a smaller device, such as a phone. I’ve run into an issue where a web page that works completely fine on computer, but barely functions on mobile because of improper formatting, and when this page does function it is because I am zooming in and scrolling endlessly from side to side. CSS prevents these problems if the programmer remembers to make a separate layout for mobile devices.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "coding languages"
+    ]
+  },
+  {
+    "objectID": "coding.html#javascript---interactive-elements",
+    "href": "coding.html#javascript---interactive-elements",
+    "title": "coding languages",
+    "section": "JavaScript - Interactive Elements",
+    "text": "JavaScript - Interactive Elements\nJavaScript is a programming language used to create dynamic content for websites. It achieves this by adding new HTML elements while modifying existing ones. Any time a web page has a drop down menu or a bar that pops out from the side that is an example of JavaScript. Anything clickable is also JavaScript.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "coding languages"
+    ]
+  },
+  {
+    "objectID": "coding.html#php",
+    "href": "coding.html#php",
+    "title": "coding languages",
+    "section": "PHP",
+    "text": "PHP\nPHP (Hypertext Preprocessor) is an open-source, server-side programming language that is cross-platform and fairly easy to learn. PHP can be used to create websites, applications, customer relationship management systems and more. It is a widely-used general-purpose language that can be embedded into HTML.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "coding languages"
+    ]
+  },
+  {
+    "objectID": "coding.html#blah-blah-blah",
+    "href": "coding.html#blah-blah-blah",
+    "title": "coding languages",
+    "section": "Blah Blah Blah",
+    "text": "Blah Blah Blah\nI may only be talking about four coding languages here, but there are plenty others. I encourage you to do your own research and to maybe check out these links I used while writing this.\n\nPHP\nHTML, CSS, JavaScript\nHTML vs. CSS vs. JavaScript\nWhat is HTML\nWhat is PHP\nWhat is JavaScript",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "coding languages"
+    ]
+  },
+  {
+    "objectID": "mockup.html#what-is-an-interactive-mockup-software",
+    "href": "mockup.html#what-is-an-interactive-mockup-software",
+    "title": "interactive mockup software",
+    "section": "What Is An Interactive Mockup Software",
+    "text": "What Is An Interactive Mockup Software\nInteractive Mockup software is utilized to create digital prototypes that allow the users to see how their website, product, or app will function or appear. Users of these interactive mockups can click buttons, scroll through pages, and navigate through different screens to see how an idea or design would behave in real life. Users can also test their designs and check for potential issues and can make adjustments before development starts. Some good interactive mockup softwares to look into are figma, Adobe XD, Penpot, and Framer.\n\nFigma\nFigma, a cloud based tool that allows users to create wireframes, Uis, and prototypes, has collaboration features and can be used to hand off designs to developers once designing is complete. Figma’s primary strength is its ability to create interactive prototypes that designers can link different screens, set triggers to do actions like clicks or hovers, and add transitions between states that simulate user navigation. Figma also allows designers to work on the same design at the same time, making collaboration easy with real time feedback. Users of figma can create high-fidelity mockups with detailed visuals to closely resemble a product.\n\n\nAdobe XD\nAdobe XD is also very useful when creating Mockups as it is a vector based tool that allows users to create prototypes of web applications. Adobe XD’s main focus is to create interactive prototypes where users can click through different screens to see how a design would actually work. Users can connect screens to create navigation flows within a prototype. Once these prototypes are created, they can be easily shared with clients and stakeholders for feedback and approval.\n\n\nPenpot\nAnother good software to look into is Penpot, which allows its users to create interactive mockups and prototypes as well. Penpot works as an open source which means the software is freely accessible and customizable by the community. It has a collaborative design which allows for multiple users to work on a design simultaneously, making it an ideal choice for team projects. Penpot generates code snippets directly from the design which reduces the need for manual translation. It also allows for creation and management of design systems with reusable components.\n\n\nFramer\nFramer is also a good option as it allows designers to create high-fidelity, clickable prototypes of websites and applications without needing a code. With no code prototyping, users can design and build interactive prototypes with visual interference, without complex coding. Its advanced interactions make it easy to add animations, transitions, and complex user interactions to your prototypes. Framer offers a canvas similar to other designs like figma, allowing you to import assets and create layers with ease, It also offers collaboration features to allows for designers and stakeholders to collaborate in real time.",
+    "crumbs": [
+      "home",
+      "web development",
+      "interactive mockup software"
+    ]
+  },
+  {
+    "objectID": "mockup.html#resources",
+    "href": "mockup.html#resources",
+    "title": "interactive mockup software",
+    "section": "resources",
+    "text": "resources\nIf you would like to find out more there are link pertaining to a specific type of Mockup software:\n\nInfo on Interactive Mockup Software\nInfo on Figma\nInfo on Adobe XD\nInfo on Penpot\nInfo on Framer",
+    "crumbs": [
+      "home",
+      "web development",
+      "interactive mockup software"
+    ]
+  },
+  {
+    "objectID": "CodingTools.html#features",
+    "href": "CodingTools.html#features",
+    "title": "inspect element",
+    "section": "Features",
+    "text": "Features\nThere are many features to this tool but the most common ones include debugging web pages, learning and experimentation, and web design inspiration.\nDuring the debugging process you can identify issues which allows developers to quickly find and fix issues without layout, styles, or scripts by inspecting elements and viewing any related CSS and JavaScript. You can also located console errors which can display JavaScript errors and warnings, helping developers troubleshoot issues.\nWith learning and experimentations a user can do two types: CSS experimentation and HTML structure. CSS experimentation, users can modify CSS properties live to see how changes affect the design without permanently altering the code. With HTML structure it allows learners to understand the structure of a webpage, including how elements are nested and styled.\nUsing this tool with web design inspiration you can access copying styles and color and font identification. Users can inspect a website to see how specific styles are applied, which can inspire their own designs or help replicate certain effects while searching for copying styles. Color and font indentification can easily identify colors, fonts, and sizes used on a webpage, which is useful for design projects.",
+    "crumbs": [
+      "home",
+      "web development",
+      "in-browser coding tools"
+    ]
+  },
+  {
+    "objectID": "CodingTools.html#how-to-access",
+    "href": "CodingTools.html#how-to-access",
+    "title": "inspect element",
+    "section": "How to Access",
+    "text": "How to Access\nThere are many different ways to access “Inspect Element”, some more difficult then others but they all lead to the same place.\nIt also depends on what device you are using to access this tool. Some systems may not have the same features as others do. The most common electronics used to access the “Inspect Element” tool are a Windows/Linux or a Mac.\nAccessing the “Inspect Element” may also be different depending in what webpage you are using. Whether it is Chrome, Firefox, or Safari, you will be able to find a way to access this tool.\n\nAccess on Chrome\n\nMethod 1:\nRight-click anywhere on the webpage, and at the very bottom of the menu that pops up, click Inspect.\n\n\nMethod 2:\nClick the hamburger menu (the icon with three stacked dots) on the far-right of your Google Chrome toolbar, click More Tools, then select Developer Tools.\n\n\nMethod 3:\nPress command + option + I on a Mac, or Ctrl + Shift on a PC to open “Inspect Element” without clicking anything\n\n\n\nAccess on Firefox\n\nMethod 1:\nRight-click anywhere on the page and click Inspect at the bottom of the menu.\n\n\nMethod 2:\nClick the hamburger menu (three horizontal lines at the top-right corner of the window), select More Tools, then click Web Developer Tools\n\n\nMethod 3:\nThe keyboard shortcut on Firefox is command + option + I for Macs and Control + Shift + C for PCs.\n\n\n\nAccess on Safari\n\nClick the Safari dropdown in the top navigation bar above the Safari window, and then click Preferences.\nNavigate to Advanced, and check the box at the bottom of the window by Show Develop menu in the menu bar. Close the window.\nNow, you should be able to right-click anywhere on the page and click Inspect Element to open the Elements pane.\nThe pane should appear along the bottom of your window. To move it to a side alignment and give yourself a little more space to look at the code, click the Dock to right of window (or left of window) option on the top-left of the pane, next to the “X”",
+    "crumbs": [
+      "home",
+      "web development",
+      "in-browser coding tools"
+    ]
+  },
+  {
+    "objectID": "CodingTools.html#resources",
+    "href": "CodingTools.html#resources",
+    "title": "inspect element",
+    "section": "Resources",
+    "text": "Resources\nSources and links:\n\nExplanation of what an “Inspect Element” is and how it effects a page.\nExplains the features of the “Inspect Element” tool.\nHow to access the “Inspect Element” tool, included with pictures.",
+    "crumbs": [
+      "home",
+      "web development",
+      "in-browser coding tools"
+    ]
+  },
+  {
+    "objectID": "vpn.html#how-do-vpns-benefit-people",
+    "href": "vpn.html#how-do-vpns-benefit-people",
+    "title": "vpn",
+    "section": "How do VPNs benefit people?",
+    "text": "How do VPNs benefit people?\nVPNS encrypting their internet traffic and masking their IP address, effectively hiding their online activity and location, providing increased privacy and security when browsing the web, especially on public Wi-Fi networks; it allows users to access geo-restricted conten and potentially avoid online surveillantce or tracking by third parties.\n\n\nDo VPNS fully protect my information?\nA VPN may boast strong protocols and military-grade encryption, but that doesn’t mean it’s infallible. It can’t prevent cookie tracking, viruses, or malware, and it can’t protect against phishing scams. Data leaks could occur. But most pivotally, a VPN is only as secure as the company that runs it. A VPN provider that uses out-of-date protocols, leaks IPs, and logs your data isn’t one you can trust. No VPN can guarantee absolute security, though choosing a reliable one will make a whole lot of difference with web surfing.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "virtual private networks"
+    ]
+  },
+  {
+    "objectID": "vpn.html#resources",
+    "href": "vpn.html#resources",
+    "title": "vpn",
+    "section": "resources",
+    "text": "resources\n\nMicrosoft VPN\nNordVPN\nVPN Safety\nVPN info",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "virtual private networks"
+    ]
+  },
+  {
+    "objectID": "no-code.html#what-is-no-code-site-builder",
+    "href": "no-code.html#what-is-no-code-site-builder",
+    "title": "No-Code Site Builders",
+    "section": "What is no code site builder",
+    "text": "What is no code site builder\nNo-code site builders are tools that allow users to create websites without needing to write any code. These platforms use visual interfaces with drag-and-drop features, making it easy for anyone, regardless of their technical skill level, to design and launch a website. Users can choose from pre-built templates, customize layouts and integrate various functionalities such as forms, e-commerce options, and social media links, all without having to learn programming languages like HTML, CSS, or javaScript. No-code site builders empower individuals and businesses to create professional websites quickly and efficiently.",
+    "crumbs": [
+      "home",
+      "web development",
+      "no-code site builders"
+    ]
+  },
+  {
+    "objectID": "no-code.html#no-code-for-google-sites",
+    "href": "no-code.html#no-code-for-google-sites",
+    "title": "No-Code Site Builders",
+    "section": "No-Code for Google sites",
+    "text": "No-Code for Google sites\nGoogle Sites is a user friendly platform designed to help individuals and businesses create websites without the need for coding knowledge. It caters to users who want to build websites quickly and efficiently, offering a straightforward drag-and-drop interface. With Google sites, users can choose from various templates to jumpstart their projects, whether it’s a simple portfolio, a personal blog, or a team collaboration site. This makes it an excellent tool for beginners or those looking to create a web presence without hiring a developer.\nThe beauty of Google Sites lies in its simplicity and integration with other Google services. Since it connects seamlessly with Google Drive, users can easily embed content like documents, slides, and spreadsheets directly into their website. This is particularly useful for businesses or educational purposes where collaboration and easy access to shared resources are important. Additionally, the platform automatically adjusts for mobile responsiveness, ensuring that websites look good on any device without extra effort from the user.\nAlthough Google Sites is a powerful no-code tool, it does have limitations when it comes to customization. Users are restricted to the built-in templates and design options, meaning those looking for more complex or visually unique websites might find it less flexible compared to other platforms like WordPress or Wix. Still, its ease of use and streamlined functionality make it ideal for people who prioritize simplicity over highly custom designs or advanced features.",
+    "crumbs": [
+      "home",
+      "web development",
+      "no-code site builders"
+    ]
+  },
+  {
+    "objectID": "no-code.html#no-code-for-wix",
+    "href": "no-code.html#no-code-for-wix",
+    "title": "No-Code Site Builders",
+    "section": "No-Code for Wix",
+    "text": "No-Code for Wix\nWix is one of the most popular no-code website builders on the market, known for its user-friendly interface and vast array of design options, It allows users to create professional websites without needing any coding knowledge. With its drag-and-drop functionality, Wix provides an intuitive platform that can be easily navigated by beginners, yet it also offers advanced features for more experienced users. Whether you want to build a personal blog, an online store, or a business website, Wix offers the flexibility to bring your vision to life.\nOne of Wix’s standout features is its large section of pre-designed templates. These templates cater to a wide range of industries, including e-commerce, photography, hospitality, and more. Users can select a template that fits their needs and then customize it by changing fonts, colors, and layouts.The drag-and-drop editor allows for quick adjustments, making the process of building a site fast and simple. Additionally, Wix’s templates are responsive, meaning they automatically adjust to look good on any device, from desktops to smartphones.\nWix also integrates a wide variety of apps and third-party tools that extend the platform’s functionality. These apps cover everything from social media integration to advanced SEO tools, booking systems, and payment getaways. For users who want to expand their site’s capabilities, the Wix App Market offers a way to integrate these features without having to write any code. These app marketplace continually evolves, ensuring that users can access the latest tools to enhance their websites.\nFurthermore, Wix has solid customer support options, including live chat, phone support, and an extensive knowledge base. The platform’s comprehensive help center offers step-by-step guides and video tutorials to help users solve any issues they might encounter. Wix also provides a free plan for users to explore the platform and start building their websites without any entail investment. For those looking for more advanced features, Wix offers premium plans with additional storages, professional domains, and e-commerce capabilities, making it a flexible solution for all types of users.",
+    "crumbs": [
+      "home",
+      "web development",
+      "no-code site builders"
+    ]
+  },
+  {
+    "objectID": "no-code.html#no-code-for-webflow",
+    "href": "no-code.html#no-code-for-webflow",
+    "title": "No-Code Site Builders",
+    "section": "No-Code for Webflow",
+    "text": "No-Code for Webflow\nWebflow is a powerful no-code website builder designed for both beginners and advanced users. While it’s known for its visual web design capabilities, Webflow provides a level of customization that typically requires coding, all within a no-code environment. This makes it a popular choice for designers who want more control over their websites without writing any code. Webflow’s interface allows users to design responsive websites by dragging and stopping elements, with precise control over layouts, typography, animations, and interactions. It combines the ease of no-code tools with the flexibility typically found in more technical web design platforms.\nOne of Webflow’s key strengths is its robust design and customization options. The platform allows for pixel-perfect design, making it possible to create highly unique and visually stunning websites. With its CS grid and flexbox support, users can create complex responsive layouts that adapt to any screen size without the need for custom code. Additionally, Webflow’s interactions and animations tools enable users to create dynamic effects, such as scroll-based animations and hover interactions, without touching any code. These features make it an attractive option for designers looking to bring their creative ideas to life in a no-code environment.\nWebflow also stands out with its intergrade CMS( Content Management System), which allows users to build dynamic, content-rich websites. The CMS enables users to create custom collections (like blogs, portfolios, or product catalogs) and easily manage content across options for businesses, agencies, and content creators who want to scale their sites while maintaining flexibility. The platform also supports e-commerce, making it easy to launch an online store with custom product pages, shopping carts, and checkout processes. Webflow’s ecommerce capabilities are customizable, allowing users to build fully tailored shopping experiences without needing any coding skills.\nAdditionally, Webflow offers excellent hosting and SEO features, which are essential for any websites looking to perform well in search engines. Webflow’s hosting in fast, secure, and reliable, with built-in features like SSL certificates, site backups, and global CDN (Content Delivery Network) support. Its SEO tools allow users to optimize their site’s metadata, URLs, and alt tags directly with the platform, making it easier to rank on search engines. Webflow also provides detailed analytics and the option to export clean, exportable code for developers who may want to make further customizations down the line. With these powerful features, Webflow has positioned itself as a top choice for those seeking a flexible, no-code platform that can grow with their needs.",
+    "crumbs": [
+      "home",
+      "web development",
+      "no-code site builders"
+    ]
+  },
+  {
+    "objectID": "no-code.html#no-code-for-squarespace",
+    "href": "no-code.html#no-code-for-squarespace",
+    "title": "No-Code Site Builders",
+    "section": "No-Code for Squarespace",
+    "text": "No-Code for Squarespace\nSquarespace is a populus no-code website builder that offers an intuitive platform for users looking to create stylish and functional websites without the need for coding knowledge. Known for its sleek, modern templates, Squarespace provides a design-first experience that appeals to creative professionals, entrepreneurs, and small businesses. Its drag-and-drop editor makes it easy to add and arrange elements like text, images, and videos on your website. Whether you’re building a personal blog, portfolio, or ecommerce store, Squarespace offers the tools and flexibility to bring your vision to life quickly and efficiently.\nOne of the main advantages of Squarespace is its wide range of beautifully created templates. These templates are fully responsive, meaning they automatically adjust to look great on any device, from desktop with attention to detail, and users can easily customize colors, fonts, and layouts to match their branding. Sqaurespace also provides access to high quality stock images and a comprehensive library of design features that help make the website creation process seamless, and for those with no prior experience.\nSquarespace stands out for its strong focus on e-commerce, making it a great choice for users looking to build online stores, It offers integrated payment processing, inventory management, and tools for creating custom products pages, Squarespace’s e-commerce capabilities also include features like discount codes, shipping options, and customer accounts. With these built-in tools, users can create a fully functional online store without relying on third-party plugin or coding. The platform’s easy-to use interface ensures that even beginners can set up professional- looking e-commerce websites quickly.\nBeyond design and e-commerce, Squarespace also provides excellent customer support and a variety of resources for users. Its help center includes detailed guides, video tutorials, and a community forum where users can exchange tips and solutions. Additionally, Squarespace customer support team is available 24/7 via live chat and email, making it easy to get assistance when needed. With reliable hosting, built in SEO tools, and analytics to track site performances, Squarespace ensures that your website that your website not only looks great but also functions smoothly and effectively in the competitive online space.",
+    "crumbs": [
+      "home",
+      "web development",
+      "no-code site builders"
+    ]
+  },
+  {
+    "objectID": "no-code.html#resources",
+    "href": "no-code.html#resources",
+    "title": "No-Code Site Builders",
+    "section": "Resources",
+    "text": "Resources\n\nWebFlow\nSite vs Site\nGoogle Site\nSquarespace",
+    "crumbs": [
+      "home",
+      "web development",
+      "no-code site builders"
+    ]
+  },
+  {
+    "objectID": "bandwidth.html#how-does-bandwidth-work",
+    "href": "bandwidth.html#how-does-bandwidth-work",
+    "title": "bandwidth",
+    "section": "How does bandwidth work?",
+    "text": "How does bandwidth work?\nNetwork bandwidth works by determining how much data can be transmitted over a connection at any given time. Think of it like a highway—just as more lanes allow more cars to pass through at once, higher bandwidth allows more data to flow simultaneously. When you send or receive data (like streaming a video or downloading a file), your device breaks the data into packets, which travel across the network to their destination. The speed at which these packets move depends on bandwidth availability. If the network is congested or your connection has limited bandwidth, data packets take longer to arrive, causing buffering or lag. Bandwidth is shared among all devices on a network, so the more devices using it at once, the slower each connection may be.\n\n\n\ncloud storage icon",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "bandwidth and storage"
     ]
   }
 ]

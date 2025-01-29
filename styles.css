@@ -23,15 +23,25 @@ main {
     max-width: 50ch;
 }
 
+.mt-1 {
+    margin-bottom: 3rem;
+}
+
 h1,
 h2,
 h3,
-.navbar,
-.sidebar-item .sidebar-item-container {
+.navbar {
     font-family: "alexandria", serif;
     font-weight: 700;
     border-bottom: 0px solid transparent;
     padding-bottom: 0;
+}
+
+.text-start {
+    font-family: "alexandria", serif;
+    font-weight: 700 !important;
+    margin-top: 1rem;
+    text-wrap-style: balance;
 }
 
 .navbar {
