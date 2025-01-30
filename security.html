@@ -66,13 +66,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">internet issues</a></li><li class="breadcrumb-item"><a href="./security.html">security threats</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -118,16 +117,16 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">basics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">home</span></a>
   </div>
 </li>
@@ -186,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">network terminology</span></a>
   </div>
 </li>
@@ -206,13 +205,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">internet issues</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
@@ -221,13 +220,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./privacy.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">privacy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./security.html" class="sidebar-item-text sidebar-link">
+  <a href="./security.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">security threats</span></a>
   </div>
 </li>
@@ -268,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./UIUX.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">UI and UX</span></a>
   </div>
 </li>
@@ -339,46 +338,36 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#web-foundations" id="toc-web-foundations" class="nav-link active" data-scroll-target="#web-foundations">web foundations</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">web foundations</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><img src="missing-image.png" class="img-fluid" alt="missing image"><br>
+<p><img src="securityalert.png" class="img-fluid" alt="securityalert"><br>
 </p>
-<section id="web-foundations" class="level1">
-<h1>web foundations</h1>
-<p>This site serves as a simple foundation introduction to the internet and issues related to web design and development.</p>
-<p>All content was collected, curated, and created by the students of the 2024-2025 <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/programs/digital-media-and-design/">Digital Media &amp; Design</a> program at <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/">Eaton RESA Career Preparation Center</a>&nbsp;located at&nbsp;<a href="https://lcc.edu/">Lansing Community College</a>.</p>
-<p><a href="./about.html">More about the site here.</a></p>
+<section id="security-threats" class="level1">
+<h1>Security Threats</h1>
+<p><strong>Brianna Gurd</strong></p>
+<section id="what-it-is-and-how-to-protect-yourself" class="level3">
+<h3 class="anchored" data-anchor-id="what-it-is-and-how-to-protect-yourself">What it is and how to protect yourself</h3>
+<p>The internet is a wonderful place to explore and be curious. However, there are dangers to scouring the internet as well. Security threats happen daily. While they don’t happen to the same person every day, there are hundreds of people out there who unknowingly allow themselves to face internet dangers. But you can’t protect yourself from threats you’re clueless about. A security threat is an activity or attack that could potentially cause harm or damage to an organization. Physical attacks, such as theft or vandalism, count as security threats as well.</p>
+<p>The dangers of a security threat are vast. They can affect an organization’s operations, reputation, financial stability, and overall customer experience. To protect your organization against these threats, here’s a few things to consider; install an antivirus software, create strong passwords, enforce security policies, use firewalls, and monitor activity.</p>
+<p>Rational measures work too. To dive further, restrict access. Doing this ensures that only authorized personnel have access to sensitive information and thus reduces the chance of being attacked. You can also verify requests. Doing this can help confirm the legitimacy of the requestor.</p>
+<p>Doing all of these will definitely help you and your organization stay safe from attackers. Being completely safe from threats, however, isn’t guaranteed. It is still very important to keep guard up and protect yourself.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links:</h2>
+<ul>
+<li><p><a href="https://www.isaca.org/resources/news-and-trends/industry-news/2024the-top-5-cybersecurity-threats-and-how-to-defend-against-them">Link 1</a></p></li>
+<li><p><a href="https://www.eccouncil.org/cybersecurity-exchange/network-security/how-to-prevent-network-security-attacks/">Link 2</a></p></li>
+<li><p><a href="https://debricked.com/blog/what-is-security-threat/">Link 3</a></p></li>
+<li><p><a href="https://foundershield.com/insurance-terms/definition/security-threats/">Link 4</a></p></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -796,5 +785,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

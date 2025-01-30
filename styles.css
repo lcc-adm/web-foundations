@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 
 :root {
     --black: #362c2c;
@@ -31,14 +31,14 @@ h1,
 h2,
 h3,
 .navbar {
-    font-family: "alexandria", serif;
+    font-family: "geologica", serif;
     font-weight: 700;
     border-bottom: 0px solid transparent;
     padding-bottom: 0;
 }
 
 .text-start {
-    font-family: "alexandria", serif;
+    font-family: "geologica", serif;
     font-weight: 700 !important;
     margin-top: 1rem;
     text-wrap-style: balance;

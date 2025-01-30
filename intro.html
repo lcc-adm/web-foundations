@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>web foundations</title>
+<title>web foundations - intro</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./what-is-the-internet.html">general intro to internet</a></li><li class="breadcrumb-item"><a href="./intro.html">network terminology</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -118,16 +118,16 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">basics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">home</span></a>
   </div>
 </li>
@@ -141,13 +141,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">general intro to internet</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./what-is-the-internet.html" class="sidebar-item-text sidebar-link">
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">network terminology</span></a>
   </div>
 </li>
@@ -344,16 +344,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#web-foundations" id="toc-web-foundations" class="nav-link active" data-scroll-target="#web-foundations">web foundations</a></li>
+  <li><a href="#network-terminology" id="toc-network-terminology" class="nav-link active" data-scroll-target="#network-terminology">Network Terminology</a>
+  <ul class="collapse">
+  <li><a href="#networks" id="toc-networks" class="nav-link" data-scroll-target="#networks">Networks</a></li>
+  <li><a href="#transmission-control-protocol" id="toc-transmission-control-protocol" class="nav-link" data-scroll-target="#transmission-control-protocol">Transmission Control Protocol</a></li>
+  <li><a href="#http" id="toc-http" class="nav-link" data-scroll-target="#http">HTTP</a></li>
+  <li><a href="#isp" id="toc-isp" class="nav-link" data-scroll-target="#isp">ISP</a></li>
+  <li><a href="#dns" id="toc-dns" class="nav-link" data-scroll-target="#dns">DNS</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./what-is-the-internet.html">general intro to internet</a></li><li class="breadcrumb-item"><a href="./intro.html">network terminology</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">web foundations</h1>
+<h1 class="title">intro</h1>
 </div>
 
 
@@ -370,15 +378,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="missing-image.png" class="img-fluid" alt="missing image"><br>
+<p><img src="intro.png" class="img-fluid" alt="image design by Ethan Stevens"><br>
 </p>
-<section id="web-foundations" class="level1">
-<h1>web foundations</h1>
-<p>This site serves as a simple foundation introduction to the internet and issues related to web design and development.</p>
-<p>All content was collected, curated, and created by the students of the 2024-2025 <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/programs/digital-media-and-design/">Digital Media &amp; Design</a> program at <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/">Eaton RESA Career Preparation Center</a>&nbsp;located at&nbsp;<a href="https://lcc.edu/">Lansing Community College</a>.</p>
-<p><a href="./about.html">More about the site here.</a></p>
+<section id="network-terminology" class="level1">
+<h1>Network Terminology</h1>
+<p><strong>by Ethan Stevens</strong></p>
+<section id="networks" class="level2">
+<h2 class="anchored" data-anchor-id="networks">Networks</h2>
+<p>A Network refers to an interconnected computing device. These networks can share resources and data. A networked device can use a system of rules, these rules are called communication protocols and transmit information over physical or wireless technologies. A network can work through nodes and links, these are the basic building blocks in computer networking. A network node may be data communication equipment, also known as DCE, examples of this would be a modem, hub, or switch. A node could also be a data terminal equipment (DTE), this would consist of two or more computers/ printers. A link refers to the transmission media that connects two nodes. Links could be something physical such as a wire or optical fiber, or they may be free space used by wireless networks.</p>
+</section>
+<section id="transmission-control-protocol" class="level2">
+<h2 class="anchored" data-anchor-id="transmission-control-protocol">Transmission Control Protocol</h2>
+<p>Transmission Control Protocol, or TCP, is used to organize data; it does this by ensuring secure transmission between the server and the client. TCP, regardless of the amount of data, guarantees integrity when it’s sent over the network. Because of this, it is used to transmit data from higher-level protocols that require all transmitted data to arrive. The underlying protocol behind many applications is TCP, this includes file and data transfers, email, and peer-to-peer sharing. TCP is connection-oriented, meaning that a connection is established and is maintained until all applications have finished exchanging messages.</p>
+</section>
+<section id="http" class="level2">
+<h2 class="anchored" data-anchor-id="http">HTTP</h2>
+<p>The Hypertext Protocol, better known as HTTP, is the foundation of the World Wide Web, it’s made to load web pages through hypertext links. HTTP is an application layer protocol that can transfer information between networked devices, and run on top of other layers of the network protocol stack. A model flow over HTTP involves a client machine, which will request a server which will then send a message in response. The way an Internet communications platform, for instance, a web browser, asks for information is through an HTTP, this information is then used to load websites. With every HTTP request made across the Internet, there is a series of encoded data that carries different forms of information.</p>
+</section>
+<section id="isp" class="level2">
+<h2 class="anchored" data-anchor-id="isp">ISP</h2>
+<p>(ISP) otherwise known as an Internet service provider, provides myriad services that allow you to access, use, manage, or participate in the Internet. ISPs are organized in many forms ex: commercial, community-owned, or non-profit, they can be privately owned as well. Many Internet services are provided by ISPs. These include but are not limited to internet access, internet transit, domain name registration, web hosting, and colocation.</p>
+</section>
+<section id="dns" class="level2">
+<h2 class="anchored" data-anchor-id="dns">DNS</h2>
+<p>The Domain Name System’s (DNS) job is to turn a domain name into an IP address, which is then used by internet browsers to load internet pages. All devices that are connected to the Internet have an IP address, these IP addresses are used by other devices to locate the device. DNS servers make it possible for people to input normal words into their browser, an example being Youtube.com, without needing to keep track of the IP address of said website. For this to work, the URL typed must go through four servers for the IP address to be provided.</p>
+<hr>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">resources</h2>
+<ul>
+<li><a href="https://aws.amazon.com/what-is/computer-networking/">AWS Amazon</a></li>
+<li><a href="https://www.techtarget.com/searchnetworking/definition/">What is TCP (Transmission Protocol Control)?</a></li>
+<li><a href="https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/">What is HTTP?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Internet_service_provider">Internet Service Provider</a></li>
+<li><a href="https://www.fortinet.com/resources/cyberglossary/what-is-dns">What is a Domain Name System</a></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
