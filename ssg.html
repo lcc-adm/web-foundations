@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>web foundations</title>
+<title>web foundations - static site generators</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CodingTools.html">web development</a></li><li class="breadcrumb-item"><a href="./ssg.html">static site generators</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -118,16 +118,16 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">basics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">home</span></a>
   </div>
 </li>
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hardware.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">hardware</span></a>
   </div>
 </li>
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./encryption.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">encryption</span></a>
   </div>
 </li>
@@ -253,13 +253,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
  <span class="menu-text">web development</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./CodingTools.html" class="sidebar-item-text sidebar-link">
@@ -322,7 +322,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ssg.html" class="sidebar-item-text sidebar-link">
+  <a href="./ssg.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">static site generators</span></a>
   </div>
 </li>
@@ -344,16 +344,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#web-foundations" id="toc-web-foundations" class="nav-link active" data-scroll-target="#web-foundations">web foundations</a></li>
+  <li><a href="#static-site-generators" id="toc-static-site-generators" class="nav-link active" data-scroll-target="#static-site-generators">Static Site Generators</a>
+  <ul class="collapse">
+  <li><a href="#different-static-site-generators" id="toc-different-static-site-generators" class="nav-link" data-scroll-target="#different-static-site-generators">Different static site generators</a>
+  <ul class="collapse">
+  <li><a href="#jekyll" id="toc-jekyll" class="nav-link" data-scroll-target="#jekyll">Jekyll</a></li>
+  <li><a href="#hugo" id="toc-hugo" class="nav-link" data-scroll-target="#hugo">Hugo</a></li>
+  <li><a href="#ty" id="toc-ty" class="nav-link" data-scroll-target="#ty">11ty</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CodingTools.html">web development</a></li><li class="breadcrumb-item"><a href="./ssg.html">static site generators</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">web foundations</h1>
+<h1 class="title">static site generators</h1>
 </div>
 
 
@@ -370,15 +379,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="webFoundationHeader.png" class="img-fluid" alt="cyberpunk duck"><br>
+<p><img src="gear.png" class="img-fluid" alt="gear graphic"><br>
 </p>
-<section id="web-foundations" class="level1">
-<h1>web foundations</h1>
-<p>This site serves as a simple foundation introduction to the internet and issues related to web design and development.</p>
-<p>All content was collected, curated, and created by the students of the 2024-2025 <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/programs/digital-media-and-design/">Digital Media &amp; Design</a> program at <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/">Eaton RESA Career Preparation Center</a>&nbsp;located at&nbsp;<a href="https://lcc.edu/">Lansing Community College</a>.</p>
-<p><a href="./about.html">More about the site here.</a></p>
+<section id="static-site-generators" class="level1">
+<h1>Static Site Generators</h1>
+<p><strong>by Henry Schmitz</strong></p>
+<p>A static site generator uses files such as markdown or JSON to generate static web pages. Static websites do not change based on request unlike dynamic websites. This element of simplicity makes it so the website cannot be altered maliciously do to the smaller attack surface.</p>
+<section id="different-static-site-generators" class="level2">
+<h2 class="anchored" data-anchor-id="different-static-site-generators">Different static site generators</h2>
+<section id="jekyll" class="level3">
+<h3 class="anchored" data-anchor-id="jekyll">Jekyll</h3>
+<p>Created in 2008 by a Github employee, this model is largely used and known due to its integration into Github. Jekyll renders either Textile or Markdown to produce a static site. Github pages offers free hosting when Jekyll is used alongside it, domain name and all.</p>
+</section>
+<section id="hugo" class="level3">
+<h3 class="anchored" data-anchor-id="hugo">Hugo</h3>
+<p>Hugo takes data files, i18n bundles, assets, and content written in HTML, Markdown etc, and renders a static site. It is the fastest renderer on the market, running at 1ms or less per page. Most sites take less than one second to render. Hugo is open source, meaning that there will always be improvement and flexibility.</p>
+</section>
+<section id="ty" class="level3">
+<h3 class="anchored" data-anchor-id="ty">11ty</h3>
+<p>11ty does not require a Javascript framework, meaning a zero client-side javascript across the board by default. With 11ty you can work from a foundation of prerendered templates that suit your project. 11ty works with your project’s existing directory structure. The tool doesn’t require any type of directory, use the structure you want.</p>
+<hr>
+</section>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>List of links to all sources used:</p>
+<ul>
+<li><a href="https://jekyllrb.com">Jekyll Source</a></li>
+<li><a href="https://gohugo.io">Hugo Source</a></li>
+<li><a href="https://www.11ty.dev">11ty Source</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Static_site_generator">General information</a></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

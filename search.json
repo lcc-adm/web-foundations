@@ -104,7 +104,7 @@
     "href": "about.html#this-site",
     "title": "about",
     "section": "this site",
-    "text": "this site\nWebsite content written in markdown and published using Quarto and a heavily modified Cosmo theme. The title font is Alexandria. The site is hosted on GitHub Pages.",
+    "text": "this site\nWebsite content written in markdown and published using Quarto and a heavily modified Cosmo theme. The title font is Geologica. The site is hosted on GitHub Pages.",
     "crumbs": [
       "home",
       "basics",
@@ -349,6 +349,614 @@
       "home",
       "internet issues",
       "bandwidth and storage"
+    ]
+  },
+  {
+    "objectID": "what-is-the-internet.html#basic-structure-of-the-internet",
+    "href": "what-is-the-internet.html#basic-structure-of-the-internet",
+    "title": "internet",
+    "section": "Basic Structure of The Internet",
+    "text": "Basic Structure of The Internet\nThe internet is essentially a network of networks. It’s made up of countless devices (computers, smartphones, servers, etc.) all connected through wired (fiber-optic, copper cables) and wireless (Wi-Fi, satellites) technologies. At its core, the internet relies on a series of backbones — these are high-speed, long-distance data routes, usually run by large telecom companies or governments, that connect smaller local networks. When you access the internet from home, your device is communicating with these backbone networks through your Internet Service Provider (ISP), which might be companies like Comcast, AT&T, or Verizon to name a few.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "what is the internet?"
+    ]
+  },
+  {
+    "objectID": "what-is-the-internet.html#protocols-of-the-internet",
+    "href": "what-is-the-internet.html#protocols-of-the-internet",
+    "title": "internet",
+    "section": "Protocols of the Internet",
+    "text": "Protocols of the Internet\nThe internet’s servers allow devices to communicate and share information. It relies on a system of protocols like IP (Internet Protocol) for addressing devices, TCP (Transmission Control Protocol) for breaking down and reassembling data, and HTTP/HTTPS for transferring web content. Every device has a unique IP address, and the Domain Name System (DNS) translates human-readable web addresses (like “www.google.com”) into these numerical addresses.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "what is the internet?"
+    ]
+  },
+  {
+    "objectID": "what-is-the-internet.html#how-data-is-transmitted-and-websites-work",
+    "href": "what-is-the-internet.html#how-data-is-transmitted-and-websites-work",
+    "title": "internet",
+    "section": "How Data is Transmitted and Websites Work",
+    "text": "How Data is Transmitted and Websites Work\nData is transmitted through a complex path, where packets travel across routers and servers until they reach their destination. Websites and online services are hosted on web servers, which store and manage the content that you access. Browsers like Chrome or Safari interpret the data sent from these servers, displaying it as websites using HTML, CSS, and JavaScript.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "what is the internet?"
+    ]
+  },
+  {
+    "objectID": "what-is-the-internet.html#the-infrastructure-behind-the-internet",
+    "href": "what-is-the-internet.html#the-infrastructure-behind-the-internet",
+    "title": "internet",
+    "section": "The Infrastructure Behind the Internet",
+    "text": "The Infrastructure Behind the Internet\nThe infrastructure behind the internet includes both physical elements, like fiber-optic cables and wireless technologies (Wi-Fi, cellular), and a variety of organizations that manage how data flows. Entities like ICANN oversee domain names, while Content Delivery Networks (CDNs) ensure fast data delivery by distributing website content to servers around the world. Cloud services also play a huge role in storing and processing data remotely, making it accessible from any device.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "what is the internet?"
+    ]
+  },
+  {
+    "objectID": "what-is-the-internet.html#the-internets-evolution-and-security-concern",
+    "href": "what-is-the-internet.html#the-internets-evolution-and-security-concern",
+    "title": "internet",
+    "section": "The Internet’s Evolution and Security Concern",
+    "text": "The Internet’s Evolution and Security Concern\nAs the internet has evolved, it’s become central to nearly every aspect of modern life, powering everything from social media to e-commerce, online learning, and entertainment. While the internet offers tremendous benefits, it also brings security and privacy risks, with concerns about hacking, data breaches, and surveillance. Encryption and secure browsing protocols (like HTTPS) help mitigate some of these risks, but staying vigilant online remains important.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "what is the internet?"
+    ]
+  },
+  {
+    "objectID": "what-is-the-internet.html#other-resources-to-learn-more-about-what-the-internet-is",
+    "href": "what-is-the-internet.html#other-resources-to-learn-more-about-what-the-internet-is",
+    "title": "internet",
+    "section": "Other Resources To Learn More About What the Internet Is:",
+    "text": "Other Resources To Learn More About What the Internet Is:\n\nGCF Global: Internet Basics\nArt of Testing: Internet – Definition, Working, and Advantages\nJavatpoint: What Is the Internet\nSpiceworks: What Is the Internet? Meaning, Working, and Types",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "what is the internet?"
+    ]
+  },
+  {
+    "objectID": "security.html",
+    "href": "security.html",
+    "title": "Security Threats",
+    "section": "",
+    "text": "securityalert",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "security threats"
+    ]
+  },
+  {
+    "objectID": "security.html#links",
+    "href": "security.html#links",
+    "title": "security threats",
+    "section": "Links:",
+    "text": "Links:\n\nLink 1\nLink 2\nLink 3\nLink 4",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "security threats"
+    ]
+  },
+  {
+    "objectID": "UIUX.html#user-interface-ui",
+    "href": "UIUX.html#user-interface-ui",
+    "title": "template",
+    "section": "User Interface (UI)",
+    "text": "User Interface (UI)\nUser Interface (UI) is a specialization of web design. It focuses on the look and layout of websites and apps. UI uses typography, color palettes, animations, and imagery to create the overall aesthetics. Their goal is to create an interface that is pleasing to look at and is also functional.\n\nWhat Is UI\nOverall, UI design the buttons, icons, and animations. They create the visual style guide, create wireframes and prototypes and ensure that the design is responsive.",
+    "crumbs": [
+      "home",
+      "web development",
+      "UI and UX"
+    ]
+  },
+  {
+    "objectID": "UIUX.html#user-experience-ux",
+    "href": "UIUX.html#user-experience-ux",
+    "title": "template",
+    "section": "User Experience (UX)",
+    "text": "User Experience (UX)\nUser experience (UX) is also a specialization of web design. It focuses on the effectiveness of the app or website and pays attention to the user behavior, needs and opinions of it. They map out the logical structure of the app or website. They create structural design solutions for problems that users find.\n\nWhat Is UX\nOverall UX conducts user research, determines info architecture, creates wireframes and prototypes, conducts usability tests, and they bridge the gap between the users needs and the companies needs.",
+    "crumbs": [
+      "home",
+      "web development",
+      "UI and UX"
+    ]
+  },
+  {
+    "objectID": "UIUX.html#development-process",
+    "href": "UIUX.html#development-process",
+    "title": "template",
+    "section": "Development Process",
+    "text": "Development Process\nThe Development process. First UX researcher/ designer conducts research. Then UX designer and business comes up with an idea. The UX designer determines the info architecture, sketches out the wireframes, and creates a prototype. The UX designer carries out user testing. The UI designer has all the visual and interactive elements. The UI designer creates interactive prototypes for further testing. And lastly the UI designer hands the final over to the developers who code the project.",
+    "crumbs": [
+      "home",
+      "web development",
+      "UI and UX"
+    ]
+  },
+  {
+    "objectID": "UIUX.html#resources",
+    "href": "UIUX.html#resources",
+    "title": "template",
+    "section": "Resources",
+    "text": "Resources\nSources and Links:\n\n99designs link\notakoyi link\ncareerfoundry link",
+    "crumbs": [
+      "home",
+      "web development",
+      "UI and UX"
+    ]
+  },
+  {
+    "objectID": "privacy.html#intro",
+    "href": "privacy.html#intro",
+    "title": "Internet Privacy",
+    "section": "Intro",
+    "text": "Intro\nThe standard definition of privacy incorporates two important elements: the state of being alone and not being watched or interrupted by other people. When you’re scrolling on social media, you may be physically alone, but you’re being watched through the internet. This can be very scary to many. This illusion of privacy is just that, an illusion. Today, let’s talk about the importance of online privacy, and how to protect yourself from online dangers.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "privacy"
+    ]
+  },
+  {
+    "objectID": "privacy.html#importance",
+    "href": "privacy.html#importance",
+    "title": "Internet Privacy",
+    "section": "Importance",
+    "text": "Importance\nYou probably don’t want thieves to know where you live, or the exact time you’re not home. You don’t want to give scammers a chance to use your date, place of birth, and other personal data to take out loans in your name. These cyber-criminals can access your most personal information and use it against you, and most of the time, there’s nothing you can do about it. Every time you sign up for a new app or make a purchase online, you are agreeing with a set of terms and conditions. Your agreement means organizations can legally collect information about you. Although this collection of personal information is legal, it doesn’t mean you can’t take steps to limit this invasion of privacy.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "privacy"
+    ]
+  },
+  {
+    "objectID": "privacy.html#how-youre-allowing-people-to-scam-you",
+    "href": "privacy.html#how-youre-allowing-people-to-scam-you",
+    "title": "Internet Privacy",
+    "section": "How You’re Allowing People to Scam You",
+    "text": "How You’re Allowing People to Scam You\nYou’re probably allowing scammers to access your data everyday, and here’s how: reusing weak passwords is one of the leading causes for the massive data breaches you see in the news. Weak passwords allow cyber criminals to break into multiple accounts at once and engage in identity theft or financial fraud. Oversharing provides information to malicious onlookers. Posting videos of your home can give a map of your belongings and how to access them. Taking pictures of your boarding passes can reveal how long you’ll be away and where you’ll be traveling. Every post could create a clear picture of your life, habits, relationships, and possessions. Cyber-criminals can steal information from you through malicious extensions, infected ads, scam links that lead to scam websites, and much more. They could bait you into opening deceiving emails, taping links in misleading messages, or even get personal data in fake phone calls. They can collect your usernames and passwords, which would allow them to steal your money, access confidential information, or turn your life into a living nightmare.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "privacy"
+    ]
+  },
+  {
+    "objectID": "privacy.html#how-to-protect-your-internet-privacy",
+    "href": "privacy.html#how-to-protect-your-internet-privacy",
+    "title": "Internet Privacy",
+    "section": "How to Protect Your Internet Privacy",
+    "text": "How to Protect Your Internet Privacy\nGood thing there are ways to avoid such invasions. You could set up an early-warning system that patrols the internet for you. These services monitor your digital footprint, starting with your email address and phone number. They will alert you if your personal data is leaked in new breaches through privacy threats. Try to provide as little information about yourself as possible, every time you’re asked to provide information, consider the risks and benefits. Get educated about laws and regulations or other measures that impact your online privacy, and advocate for the ones you support. Change your passwords frequently, and make them hard to guess. Try to avoid adding personal information in your password, such as specific dates, as they’re easy to guess. Consider using a phrase that you will remember easily, something that only you would know. Use different passwords for different sites, so that if one is breached, the others will not be affected. Try not to get caught in the phishing net. If you don’t recognize a number or the sender of an email, don’t fall for it. Get rid of apps and browsers that you don’t use, because many apps make money from collecting your personal user data, keep that in mind when you download them. Use a secure VPN(Virtual Private Network) while you’re browsing online. This essentially encodes your information, and makes it unreadable to hackers. I’m sure you’ve opened a website and have clicked “accept cookies” without even knowing what cookies are. They’re small text files that store information about you and be used to track your movements across multiple sites. You should disable third-party cookies, delete cookies when you quit a browser, and make exceptions for individual sites. Those are just a few ways you can protect your personal data.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "privacy"
+    ]
+  },
+  {
+    "objectID": "privacy.html#resources",
+    "href": "privacy.html#resources",
+    "title": "Internet Privacy",
+    "section": "resources",
+    "text": "resources\n\nWhat Is Online Privacy?\nHow to Protect Your Online Privacy\n10 Ways to Protect Your Online Privacy\nProtect My Privacy Online",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "privacy"
+    ]
+  },
+  {
+    "objectID": "intro.html#networks",
+    "href": "intro.html#networks",
+    "title": "intro",
+    "section": "Networks",
+    "text": "Networks\nA Network refers to an interconnected computing device. These networks can share resources and data. A networked device can use a system of rules, these rules are called communication protocols and transmit information over physical or wireless technologies. A network can work through nodes and links, these are the basic building blocks in computer networking. A network node may be data communication equipment, also known as DCE, examples of this would be a modem, hub, or switch. A node could also be a data terminal equipment (DTE), this would consist of two or more computers/ printers. A link refers to the transmission media that connects two nodes. Links could be something physical such as a wire or optical fiber, or they may be free space used by wireless networks.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "network terminology"
+    ]
+  },
+  {
+    "objectID": "intro.html#transmission-control-protocol",
+    "href": "intro.html#transmission-control-protocol",
+    "title": "intro",
+    "section": "Transmission Control Protocol",
+    "text": "Transmission Control Protocol\nTransmission Control Protocol, or TCP, is used to organize data; it does this by ensuring secure transmission between the server and the client. TCP, regardless of the amount of data, guarantees integrity when it’s sent over the network. Because of this, it is used to transmit data from higher-level protocols that require all transmitted data to arrive. The underlying protocol behind many applications is TCP, this includes file and data transfers, email, and peer-to-peer sharing. TCP is connection-oriented, meaning that a connection is established and is maintained until all applications have finished exchanging messages.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "network terminology"
+    ]
+  },
+  {
+    "objectID": "intro.html#http",
+    "href": "intro.html#http",
+    "title": "intro",
+    "section": "HTTP",
+    "text": "HTTP\nThe Hypertext Protocol, better known as HTTP, is the foundation of the World Wide Web, it’s made to load web pages through hypertext links. HTTP is an application layer protocol that can transfer information between networked devices, and run on top of other layers of the network protocol stack. A model flow over HTTP involves a client machine, which will request a server which will then send a message in response. The way an Internet communications platform, for instance, a web browser, asks for information is through an HTTP, this information is then used to load websites. With every HTTP request made across the Internet, there is a series of encoded data that carries different forms of information.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "network terminology"
+    ]
+  },
+  {
+    "objectID": "intro.html#isp",
+    "href": "intro.html#isp",
+    "title": "intro",
+    "section": "ISP",
+    "text": "ISP\n(ISP) otherwise known as an Internet service provider, provides myriad services that allow you to access, use, manage, or participate in the Internet. ISPs are organized in many forms ex: commercial, community-owned, or non-profit, they can be privately owned as well. Many Internet services are provided by ISPs. These include but are not limited to internet access, internet transit, domain name registration, web hosting, and colocation.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "network terminology"
+    ]
+  },
+  {
+    "objectID": "intro.html#dns",
+    "href": "intro.html#dns",
+    "title": "intro",
+    "section": "DNS",
+    "text": "DNS\nThe Domain Name System’s (DNS) job is to turn a domain name into an IP address, which is then used by internet browsers to load internet pages. All devices that are connected to the Internet have an IP address, these IP addresses are used by other devices to locate the device. DNS servers make it possible for people to input normal words into their browser, an example being Youtube.com, without needing to keep track of the IP address of said website. For this to work, the URL typed must go through four servers for the IP address to be provided.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "network terminology"
+    ]
+  },
+  {
+    "objectID": "intro.html#resources",
+    "href": "intro.html#resources",
+    "title": "intro",
+    "section": "resources",
+    "text": "resources\n\nAWS Amazon\nWhat is TCP (Transmission Protocol Control)?\nWhat is HTTP?\nInternet Service Provider\nWhat is a Domain Name System",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "network terminology"
+    ]
+  },
+  {
+    "objectID": "Layoutsystems.html",
+    "href": "Layoutsystems.html",
+    "title": "Layout Systems",
+    "section": "",
+    "text": "Harley Craft\n\n\nFlexbox is for aligning things in a single direction. It’s great for putting items side by side, like in a table with one row, or a table with one column. For example,\n\n\nor\n\n\nOther key features of Flexbox are that you control the space between items and where they sit. For example, putting a space between words. It can also allow you to grow or shrink items depending on how much space you have available. You can also center items, spread them out, or bunch them up at the start or end. This program can be really helpful when you’re making Navigation menus, button groups, or if you’re centering a single element.\n\n\n\nHowever, CSS Grid is for aligning items on 2 axes, not just one. It allows for more comprehensive tables. For example,\n\n\nKey features include defining rows and columns as a grid, like a checkerboard. This allows for maximum precision. You can place items in specific cells or stretch them across multiple columns and/or rows, like having a long piece of information in a google spreadsheet. You can also add spacing between your rows and columns. It’s also good for organizing because you can name specific parts of your grid, for example having the X-axis being letters and the Y-axis being numbers, so you know that a piece of information is in R-2, or D-2. heheheh, R2-D2…\n\n\n\nAs an example, you can use CSS Grid to create a page layout (header, sidebar, content) and Flexbox inside the content area to organize buttons or text.\n\n\n\nBefore the introduction of Flexbox and Grid, early layout solutions in web development included the use of tables for layout purposes. This was a common practice during the early days of HTML, where the document structure dictated the page layout. Tables were used extensively for structuring content, even though they were originally intended for tabular material. Additionally, the use of float and fixed-size elements, along with space-clearing techniques, was another approach to create multi-column layouts. These methods were often considered convoluted and led to complex markup and layout structures. With Flexbox and grid, the process became far less so.\n\n\n\n\nChatGPT\nMDNwebdocs"
+  },
+  {
+    "objectID": "Layoutsystems.html#flexbox",
+    "href": "Layoutsystems.html#flexbox",
+    "title": "Layout Systems",
+    "section": "",
+    "text": "Flexbox is for aligning things in a single direction. It’s great for putting items side by side, like in a table with one row, or a table with one column. For example,\n\n\nor\n\n\nOther key features of Flexbox are that you control the space between items and where they sit. For example, putting a space between words. It can also allow you to grow or shrink items depending on how much space you have available. You can also center items, spread them out, or bunch them up at the start or end. This program can be really helpful when you’re making Navigation menus, button groups, or if you’re centering a single element."
+  },
+  {
+    "objectID": "Layoutsystems.html#css-grid",
+    "href": "Layoutsystems.html#css-grid",
+    "title": "Layout Systems",
+    "section": "",
+    "text": "However, CSS Grid is for aligning items on 2 axes, not just one. It allows for more comprehensive tables. For example,\n\n\nKey features include defining rows and columns as a grid, like a checkerboard. This allows for maximum precision. You can place items in specific cells or stretch them across multiple columns and/or rows, like having a long piece of information in a google spreadsheet. You can also add spacing between your rows and columns. It’s also good for organizing because you can name specific parts of your grid, for example having the X-axis being letters and the Y-axis being numbers, so you know that a piece of information is in R-2, or D-2. heheheh, R2-D2…"
+  },
+  {
+    "objectID": "Layoutsystems.html#you-can-use-both-in-the-same-project",
+    "href": "Layoutsystems.html#you-can-use-both-in-the-same-project",
+    "title": "Layout Systems",
+    "section": "",
+    "text": "As an example, you can use CSS Grid to create a page layout (header, sidebar, content) and Flexbox inside the content area to organize buttons or text."
+  },
+  {
+    "objectID": "Layoutsystems.html#why-were-they-introduced",
+    "href": "Layoutsystems.html#why-were-they-introduced",
+    "title": "Layout Systems",
+    "section": "",
+    "text": "Before the introduction of Flexbox and Grid, early layout solutions in web development included the use of tables for layout purposes. This was a common practice during the early days of HTML, where the document structure dictated the page layout. Tables were used extensively for structuring content, even though they were originally intended for tabular material. Additionally, the use of float and fixed-size elements, along with space-clearing techniques, was another approach to create multi-column layouts. These methods were often considered convoluted and led to complex markup and layout structures. With Flexbox and grid, the process became far less so."
+  },
+  {
+    "objectID": "Layoutsystems.html#sources",
+    "href": "Layoutsystems.html#sources",
+    "title": "Layout Systems",
+    "section": "",
+    "text": "ChatGPT\nMDNwebdocs"
+  },
+  {
+    "objectID": "virus.html#how-to-prevent-and-cure",
+    "href": "virus.html#how-to-prevent-and-cure",
+    "title": "Viruses and Adware",
+    "section": "How to prevent and cure",
+    "text": "How to prevent and cure\nThe first thing you want to do is prevent your device from getting any viruses adware, so installan adware blocker and a antivirus software. Always allow antivirus to block and quartine and or get rid of Corrupt Files,and any malware detected. Always be cautious online and don’t go to sites or click links that aren’t trusted.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "viruses and adware"
+    ]
+  },
+  {
+    "objectID": "virus.html#how-to-detect-and-how-it-happens",
+    "href": "virus.html#how-to-detect-and-how-it-happens",
+    "title": "Viruses and Adware",
+    "section": "How to detect and how it happens",
+    "text": "How to detect and how it happens\nYou can run a full scan to check for viruses and adware, you can also seek professional help. It happens by cliking on unkown links and going to untrustwirthy websites, And never take downyour fire wall or get rid of your antivirus software.",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "viruses and adware"
+    ]
+  },
+  {
+    "objectID": "virus.html#resources",
+    "href": "virus.html#resources",
+    "title": "Viruses and Adware",
+    "section": "resources",
+    "text": "resources\nThe links for the resources used:\n\nantivirus and adware\ncomputer viruses\ndifference between virus and adware",
+    "crumbs": [
+      "home",
+      "internet issues",
+      "viruses and adware"
+    ]
+  },
+  {
+    "objectID": "software.html#software-infrastructure",
+    "href": "software.html#software-infrastructure",
+    "title": "Software",
+    "section": "Software Infrastructure",
+    "text": "Software Infrastructure\nTo run a computer you are gonna need an operating system. It manages memory and processes as well as the computer’s software and hardware. You’ll also need server software. Server software simplifies data storage, communications, applications and other functions. It handles tasks like load balancing, security protocols, database management and more.\n\nWhat categories are there?\nThere are two main categories of software:\nThe first category is system software. It is what works with and runs the computer’s hardware. It manages memory, devices and processors. System software is constantly working while a device is running. It is the base for application software.\nThe second is application software. Application software performs a specific task for the user. Some examples would be Google Chrome or Firefox. It can range from communication apps to games like Candy Crush. Application software needs system software to run while system software can run independently.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "software"
+    ]
+  },
+  {
+    "objectID": "software.html#resources",
+    "href": "software.html#resources",
+    "title": "Software",
+    "section": "resources",
+    "text": "resources\nWebsites used and where to find more information:\n\nBasic Software Information\nSystem Software\nApplication Software\nServer Software",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "software"
+    ]
+  },
+  {
+    "objectID": "hosting.html#what-is-web-hosting",
+    "href": "hosting.html#what-is-web-hosting",
+    "title": "Hosting, Clients, & Servers",
+    "section": "What is Web Hosting?",
+    "text": "What is Web Hosting?\nWeb hosting is a service that allows individuals and organizations to make their websites accessible on the internet. When creating a website, all of the files, images, and other content need to be stored somewhere so that people can access them online. Web hosting companies provide the technology and server space needed to store these files and keep your website running smoothly. There are a couple different types of web hosting services, such as shared hosting, where multiple websites share the same server. These servers also tend to be less expensive because the resources are shared with other website owners. Dedicated hosting is where a single website has an entire server to itself. The choice of what hosting service you need depends on the website’s needs, such as the amount of traffic it expects and the level of control required. Essentially, without web hosting, your website wouldn’t be viewable by users on the internet.\n\nWhat Are Web Clients?\nA web client is a software application used to interact with web servers and access web content. When you use a web browser like Chrome, Firefox, or Safari to visit a website, that browser acts as a web client. It sends requests to web servers asking for specific web pages or resources, and the server responds by sending the requested data back to the client. The client then processes and displays the information on your screen. Web clients can also include other applications, such as mobile apps, that access web services to retrieve data or perform actions. Essentially, the web client is the interface that allows users to interact with the massive amounts of resources available on the internet.\n\n\nWhat is a Web Server?\nA web server is a computer system that hosts websites and delivers web pages to users over the internet. When you type a web address into your browser, the browser sends a request to a web server where the website is stored. The server then processes this request then sends back the needed web pages, images, and other resources to your browser, which displays them for you to see on your screen. Web servers are filled with the necessary software that manages these requests and ensures that the correct data is sent to the right user. They also handle multiple requests at the same time, making it possible for many users to access the same website at the same time. Essentially, web servers are a central part of the internet, enabling users to access and interact with the web content smoothly.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "hosting, clients, servers"
+    ]
+  },
+  {
+    "objectID": "hosting.html#resources",
+    "href": "hosting.html#resources",
+    "title": "Hosting, Clients, & Servers",
+    "section": "resources",
+    "text": "resources\n\nWhat Is Web Hosting\nWeb Client\nWhat is a Web Server?\nWhat is Web Hosting?",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "hosting, clients, servers"
+    ]
+  },
+  {
+    "objectID": "webcodebuildingsites.html#resources",
+    "href": "webcodebuildingsites.html#resources",
+    "title": "Web Code Building Sites",
+    "section": "Resources",
+    "text": "Resources\n\nUOD Adobe Dreamweaver\nAdobe Dreamweaver\nBluefish\nPinegrow\nBootstrap Studio",
+    "crumbs": [
+      "home",
+      "web development",
+      "web code builders"
+    ]
+  },
+  {
+    "objectID": "images.html#animated-portable-network-graphics",
+    "href": "images.html#animated-portable-network-graphics",
+    "title": "image formats",
+    "section": "Animated Portable Network Graphics",
+    "text": "Animated Portable Network Graphics\nAlso known as a .apng, they are a choice for better animation sequences. Such as smoother animation, and overall better preformance. However, .apngs are not typically supported on most browsers, having less support.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "images.html#av1-image-file-format",
+    "href": "images.html#av1-image-file-format",
+    "title": "image formats",
+    "section": "AV1 Image File Format",
+    "text": "AV1 Image File Format\nAV1, is also known as .avif, AV1 is a good choicefor both still and animated images as it’s a free format and has high preformace results. it has better compression than both Pngs and Jpegs. It allows for frames, colors, and transparency.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "images.html#graphics-interchange-format",
+    "href": "images.html#graphics-interchange-format",
+    "title": "image formats",
+    "section": "Graphics Interchange Format",
+    "text": "Graphics Interchange Format\nAlso known as .gif, GIF’s are a nice choice when it comes to very simplistic and short animations. they’re typically lower in pixel quality but are commonly used.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "images.html#joint-photographic-expert-group-image",
+    "href": "images.html#joint-photographic-expert-group-image",
+    "title": "image formats",
+    "section": "Joint Photographic Expert Group Image",
+    "text": "Joint Photographic Expert Group Image\nMore commonly known as .jpg currently is the most commonly used and popular format of imaging. However, the photos occasionally do have lowered quality but they take up little space.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "images.html#portable-network-graphics",
+    "href": "images.html#portable-network-graphics",
+    "title": "image formats",
+    "section": "Portable Network Graphics",
+    "text": "Portable Network Graphics\nKnown as .png, png’s are also very common and typically preffered over .jpegs and have the ability to have transparency in areas, and better compression and reproduction.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "images.html#scalable-vector-graphics",
+    "href": "images.html#scalable-vector-graphics",
+    "title": "image formats",
+    "section": "Scalable Vector Graphics",
+    "text": "Scalable Vector Graphics\n.svg, a image formating focused on vector images using elements, icons, diagrams, that must be drawn accurately.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "images.html#web-picture-format",
+    "href": "images.html#web-picture-format",
+    "title": "image formats",
+    "section": "Web Picture Format",
+    "text": "Web Picture Format\n.webp a great choice for images both still ancd animated. .Webp allows for much better compression, with support for higher color, frames, depth, and transparency. .AVIF may offer better compression but isnt well supported and doesnt have progressive rendering, making .Wepb a little better, but also not having as much support on web browsers.",
+    "crumbs": [
+      "home",
+      "web development",
+      "web images"
+    ]
+  },
+  {
+    "objectID": "apps.html#introduction-into-websites-and-apps.",
+    "href": "apps.html#introduction-into-websites-and-apps.",
+    "title": "Websites vs. Web Apps",
+    "section": "Introduction into Websites and Apps.",
+    "text": "Introduction into Websites and Apps.\nThe key to differentiating Websites and apps is to figure out which one works more with you. Depending on what the customer wants to learn or do they could pick between sharing or viewing media in files on websites or stored in complex app codes.\n\nWebsites are better for stutors on a desktop or browser compatable devices.\nBenefits: Websites create an essential way to browse the internet. You have every search at your command and various tabs that you can bookmark and keep on your device. There are also additional features easier to access like printing, The website’s main purpose is to inform people about what they are looking for. Many professional work settings use websites and computers more than mobile devices for security as well. Websites show more professionalism and can be advertised on databases.\n\n\nApps are better for users on mobile devices such as tablets and phones.\nBenefits: Apps are a more common modified way of receiving information. This way of communication is easier and can be advertised to a younger audience. Statistics show 60% of users use mobile devices over hardwear devices. This is because it’s more accessible. With one tap of a button you can access the internet and other resources. among the library of many apps. The main purpose of apps is to complete a task. You are limited to online computer catalogs while shopping for apps. The store includes programs like Microsoft and steam but the prices are usually higher.\n\n\nDifferences between the two.\nApps are more popular in the younger generations and society rather than websites because it is easier to navigate and organize tasks. Websites have an advantage being able to download content and inform users more specifically. Websites are easier to open and look up than apps because certain devices require a pin or additional steps to download the apps. Websites are often collections of pages while apps are more interactive while changing their screen. Apps save progress better storing things in a regular basis cloud drive. While websites may lose tabs or progress disappearing. Apps can save purchase history while Websites save their own history.",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "web apps vs websites"
+    ]
+  },
+  {
+    "objectID": "apps.html#resources",
+    "href": "apps.html#resources",
+    "title": "Websites vs. Web Apps",
+    "section": "Resources",
+    "text": "Resources\n\nAmanda Hetler Tech Target (17 Nov 2022) https://www.techtarget.com/whatis/feature/Mobile-website-vs-app-Whats-the-difference",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "web apps vs websites"
+    ]
+  },
+  {
+    "objectID": "CMS.html#resources",
+    "href": "CMS.html#resources",
+    "title": "CMS",
+    "section": "resources",
+    "text": "resources\n\nWordpress\nIntroduction to Joomla\nContent Management Systems\nWeb Design\nWhat is joomla?",
+    "crumbs": [
+      "home",
+      "web development",
+      "content management systems"
+    ]
+  },
+  {
+    "objectID": "CSSFramework.html#down-below-are-some-of-the-frameworks-you-should-try.",
+    "href": "CSSFramework.html#down-below-are-some-of-the-frameworks-you-should-try.",
+    "title": "template",
+    "section": "Down Below are some of the FrameWorks you should try.",
+    "text": "Down Below are some of the FrameWorks you should try.\n\nTailwind\nBootStrap\nBulma\nMaterialize\nFoundation\nPure\nSemantic UI\n\n\nBelow, you will find the top 3 FrameWorks if you want to try and make your own!\nFirst up we have, BootStrap, Bootstrap was one of the first and best for its time, and is still widely used for its performance and prossesing time for. Next we have Foundations, Foundations is very fast performance and high quallity Framework, and Foundations was the start to the present day frameworks. Which Brings us to the final one, Tailwind, Tailwind is the newest, most powerful, and the fastest one Frameworks has to offer, and many people are starting to switch from Bootstrap and Foundations, and moving to Tailwind. But in the end, these three site would have to be the best if your trying to start trying Frameworks.",
+    "crumbs": [
+      "home",
+      "web development",
+      "css frameworks"
+    ]
+  },
+  {
+    "objectID": "CSSFramework.html#if-you-would-like-to-do-some-reaserch-yourself-feel-free-to-check-out-these-links-below.",
+    "href": "CSSFramework.html#if-you-would-like-to-do-some-reaserch-yourself-feel-free-to-check-out-these-links-below.",
+    "title": "template",
+    "section": "If you would like to do some reaserch yourself, feel free to check out these links below.",
+    "text": "If you would like to do some reaserch yourself, feel free to check out these links below.\n\nwhat is CSS Frameworks\nThe Frameworks\nBootstrap framework\ntailwind framework",
+    "crumbs": [
+      "home",
+      "web development",
+      "css frameworks"
+    ]
+  },
+  {
+    "objectID": "ssg.html#different-static-site-generators",
+    "href": "ssg.html#different-static-site-generators",
+    "title": "static site generators",
+    "section": "Different static site generators",
+    "text": "Different static site generators\n\nJekyll\nCreated in 2008 by a Github employee, this model is largely used and known due to its integration into Github. Jekyll renders either Textile or Markdown to produce a static site. Github pages offers free hosting when Jekyll is used alongside it, domain name and all.\n\n\nHugo\nHugo takes data files, i18n bundles, assets, and content written in HTML, Markdown etc, and renders a static site. It is the fastest renderer on the market, running at 1ms or less per page. Most sites take less than one second to render. Hugo is open source, meaning that there will always be improvement and flexibility.\n\n\n11ty\n11ty does not require a Javascript framework, meaning a zero client-side javascript across the board by default. With 11ty you can work from a foundation of prerendered templates that suit your project. 11ty works with your project’s existing directory structure. The tool doesn’t require any type of directory, use the structure you want.",
+    "crumbs": [
+      "home",
+      "web development",
+      "static site generators"
+    ]
+  },
+  {
+    "objectID": "ssg.html#resources",
+    "href": "ssg.html#resources",
+    "title": "static site generators",
+    "section": "Resources",
+    "text": "Resources\nList of links to all sources used:\n\nJekyll Source\nHugo Source\n11ty Source\nGeneral information",
+    "crumbs": [
+      "home",
+      "web development",
+      "static site generators"
+    ]
+  },
+  {
+    "objectID": "Encryption.html#resources",
+    "href": "Encryption.html#resources",
+    "title": "Basic Encryption",
+    "section": "resources",
+    "text": "resources\n\nprotect data with encryption\nwhat types of encryption are there\nencryption examples"
+  },
+  {
+    "objectID": "encryption.html#resources",
+    "href": "encryption.html#resources",
+    "title": "Basic Encryption",
+    "section": "resources",
+    "text": "resources\n\nprotect data with encryption\nwhat types of encryption are there\nencryption examples"
+  },
+  {
+    "objectID": "hardware.html#resources",
+    "href": "hardware.html#resources",
+    "title": "hardware",
+    "section": "resources",
+    "text": "resources\n\ncomputer hardware glossary\nexamples of computer hardware",
+    "crumbs": [
+      "home",
+      "general intro to internet",
+      "hardware"
     ]
   }
 ]
