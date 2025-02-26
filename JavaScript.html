@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>web foundations</title>
+<title>web foundations - JavaScript Frameworks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CodingTools.html">web development</a></li><li class="breadcrumb-item"><a href="./JavaScript.html">javascript frameworks</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -118,16 +118,16 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">basics</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">home</span></a>
   </div>
 </li>
@@ -253,13 +253,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
  <span class="menu-text">web development</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./CodingTools.html" class="sidebar-item-text sidebar-link">
@@ -286,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./JavaScript.html" class="sidebar-item-text sidebar-link">
+  <a href="./JavaScript.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">javascript frameworks</span></a>
   </div>
 </li>
@@ -344,16 +344,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#web-foundations" id="toc-web-foundations" class="nav-link active" data-scroll-target="#web-foundations">web foundations</a></li>
+  <li><a href="#javascript-frameworks" id="toc-javascript-frameworks" class="nav-link active" data-scroll-target="#javascript-frameworks">JavaScript Frameworks</a>
+  <ul class="collapse">
+  <li><a href="#vue.js" id="toc-vue.js" class="nav-link" data-scroll-target="#vue.js">Vue.js</a></li>
+  <li><a href="#node.js-frameworks" id="toc-node.js-frameworks" class="nav-link" data-scroll-target="#node.js-frameworks">Node.js Frameworks</a></li>
+  <li><a href="#gatsby" id="toc-gatsby" class="nav-link" data-scroll-target="#gatsby">Gatsby</a></li>
+  <li><a href="#remix" id="toc-remix" class="nav-link" data-scroll-target="#remix">Remix</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">basics</a></li><li class="breadcrumb-item"><a href="./index.html">home</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./CodingTools.html">web development</a></li><li class="breadcrumb-item"><a href="./JavaScript.html">javascript frameworks</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">web foundations</h1>
+<h1 class="title">JavaScript Frameworks</h1>
 </div>
 
 
@@ -370,15 +378,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="webFoundationHeader.png" class="img-fluid" alt="cyberpunk duck"><br>
+<p><img src="javascript.png" class="img-fluid" alt="explosion of framework logos"><br>
 </p>
-<section id="web-foundations" class="level1">
-<h1>web foundations</h1>
-<p>This site serves as a simple foundation introduction to the internet and issues related to web design and development.</p>
-<p>All content was collected, curated, and created by the students of the 2024-2025 <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/programs/digital-media-and-design/">Digital Media &amp; Design</a> program at <a href="https://www.eatonresa.org/career-and-technical-education/career-preparation-center/">Eaton RESA Career Preparation Center</a>&nbsp;located at&nbsp;<a href="https://lcc.edu/">Lansing Community College</a>.</p>
-<p><a href="./about.html">More about the site here.</a></p>
+<section id="javascript-frameworks" class="level1">
+<h1>JavaScript Frameworks</h1>
+<p><strong>by Nathan Ayotte</strong></p>
+<p>JavaScript frameworks are libraries of code that are built ahead of time and help developers make web applications faster. These frameworks allow developers to avoid getting lost in the minutiae of a project, spend less time setting up and working in a cohesive framework, aesthetically appealing applications and with more interactivity. Thus they also ensure the optimization of searches on search engines on the basis of how content is structured and loaded. Popular JavaScript frameworks include Vue.js, Node.js frameworks, Gatsby, and Remix, all offering distinct advantages for web development.</p>
+<section id="vue.js" class="level2">
+<h2 class="anchored" data-anchor-id="vue.js">Vue.js</h2>
+<p>VueJS is an open-source progressive JavaScript framework for building user interfaces and single-page apps. It features flexible integration; developers can gradually introduce it into existing HTML or exploit its full potential for feature-rich applications. Vue is a front-end library allowing seamless integration with other libraries. The component-based approach architecture enforces reusable elements, and its reactive system makes UI update automatically on data change. Besides, the intuitive syntax makes Vue simple and natural to use for developers with a general knowledge of HTML, CSS, and JavaScript.</p>
+</section>
+<section id="node.js-frameworks" class="level2">
+<h2 class="anchored" data-anchor-id="node.js-frameworks">Node.js Frameworks</h2>
+<p>The Node.js frameworks contain all the already furnished components, code, and tools that allow for the streamlining of web application/API development. The event-driven, non-blocking I/O model, built on Chrome’s V8 JavaScript engine, is primarily what makes Node.js very valuable in managing multiple concurrent requests. The frameworks provide well-structured base points, prewritten routines for similar actions like routing and database manipulation, and insistence on plugging best practices to give clear code. Many of them are built to absorb high traffic and large datasets, making them some of the prime choices for scalable programming. Also, the very great community behind the popular Node.js frameworks can provide a lot of support and help in all other forms.</p>
+</section>
+<section id="gatsby" class="level2">
+<h2 class="anchored" data-anchor-id="gatsby">Gatsby</h2>
+<p>The Gatsby framework is an open-source React-based one which is directed to building fast, high-performance websites. It supports server-side data-fetching that improves initial load time and search engine optimization. Gatsby provides developers with powerful features such as HTTP caching and browser APIs to create more resilient, efficient applications. More importantly, Gatsby can actually be deployed to the edge i.e.&nbsp;Cloudflare Workers, shortening the gap between the content and the user for faster loading. Its built-in file-system routing, with a friendly community at its support, makes development a happy and flexible process with little regard for performance.</p>
+</section>
+<section id="remix" class="level2">
+<h2 class="anchored" data-anchor-id="remix">Remix</h2>
+<p>Remix is a new full-stack web framework based on React that provides a simpler way to modern web development. It works best with server-side rendering which can improve both loading time and SEO. Remix “loaders” allow you to fetch data on the server before rendering for a smooth user experience. What’s nice is Remix also supports form submissions, reducing reliance on JavaScript for basic interactions. There is file-system-based routing, which makes managing routes in your app easier, and error-handling just out of the box makes your app more resilient. Remix also embraces the web’s standards for developers to build maintainable and performant applications.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>In conclusion, JavaScript empowers the developer community in best creating efficient, interactive, and scalable applications. Vue.js makes UI development pain-free, courtesy of its reactive and reusable components; Node.js frameworks optimize backend development with respect to structure and best practices. By using Gatsby, Remix enhances web performance with server-side optimizations that extend beyond current web standards. With these frameworks, developers can address more sophisticated web applications in less time and with greater speed and maintained user experience.</p>
+<hr>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<p>For more information on each framework listed, check out these websites:<br>
+- <a href="https://generalassemb.ly/blog/what-is-a-javascript-framework/">JavaScript Frameworks</a><br>
+- <a href="https://builtin.com/software-engineering-perspectives/vue-js">Vue.js</a><br>
+- <a href="https://www.geeksforgeeks.org/node-js-frameworks/">Node.js</a><br>
+- <a href="https://www.velotio.com/engineering-blog/what-is-gatsby-js-and-what-problems-does-it-solve">Gatsby</a><br>
+- <a href="https://medium.com/@evanstern_94664/remix-the-framework-you-should-learn-about-928d4060e8ad">Remix</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
